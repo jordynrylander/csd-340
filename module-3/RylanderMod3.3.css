@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+}
+
+#left-div, #right-div {
+    width: 45%;
+}
+
+#bottom-div {
+    width: 100%;
+    margin-top: 60%;
+}
+
+#left-div {
+    float: left;
+}
+
+#right-div {
+    float: right;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+#left-div h3 {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#left-div ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#right-div h3 {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#right-div ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#bottom-div {
+    float: right;
+    margin-bottom: 20px;
+}
