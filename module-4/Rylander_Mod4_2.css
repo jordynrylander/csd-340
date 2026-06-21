@@ -1,0 +1,54 @@
+/*
+    Jordyn Rylander
+    Module 4.2
+*/
+
+#container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(185, 63, 8, 1);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+    border: 1px solid rgba(185, 63, 8, 1);
+}
+
+#image-gallery div {
+    padding: 25px;
+    border-right: 1px solid rgba(185, 63, 8, 1);
+}
+
+#image-gallery div:last-child {
+    border-right: none;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(200, 70, 10, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 180px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(185, 63, 8, 1);
+}
+
+#back-link {
+    margin-top: 10%;
+    text-align: right;
+}
