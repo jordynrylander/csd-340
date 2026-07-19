@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment 9.3">
+    <meta name="keywords" content="HTML, CSS, JavaScript, CSD 340">
+    <meta name="author" content="Jordyn Rylander">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <script>
+        var wordOne = "software";
+        var wordTwo = "family";
+        var wordThree = "creative";
+        var wordFour = "Scotland";
+    </script>
+
+    <p>
+        My name is Jordyn, and I am currently studying
+        <span id="wordOne">________</span>
+        development. Learning how to build websites and programs can be very challenging, but I enjoy seeing my work come together in the end.
+    </p>
+
+    <p>
+        One of the most important parts of my life is my
+        <span id="wordTwo">________</span>
+        because they motivate me to continue working toward my degree and building a stable future.
+    </p>
+
+    <p>
+        I have always enjoyed activities that allow me to be
+        <span id="wordThree">________</span>,
+        including designing websites and writing books. Web design interests me because it combines technology with colors, layouts, and visual ideas to create programs that make users' lives easier.
+    </p>
+
+    <p>
+        After completing my degree, one of my goals is to travel to
+        <span id="wordFour">________</span>
+        and celebrate everything I accomplished by meeting a pen pal of mine that I have been friends with for a long time!
+    </p>
+
+    <p>
+        <button type="button"
+            onclick="document.getElementById('wordOne').innerHTML = wordOne">
+            Reveal Word 1
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('wordTwo').innerHTML = wordTwo">
+            Reveal Word 2
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('wordThree').innerHTML = wordThree">
+            Reveal Word 3
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('wordFour').innerHTML = wordFour">
+            Reveal Word 4
+        </button>
+    </p>
+
+    <p>
+        <a href="../index.html">Back to Landing Page</a>
+    </p>
+
+</body>
+
+</html>
