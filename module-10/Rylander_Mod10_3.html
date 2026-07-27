@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            width: 350px;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 0 10px gray;
+        }
+
+        a {
+            display: block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <h2>Open my eyes!</h2>
+
+    <p>Click on the picture to open up my eyes. Click again to close them!</p>
+
+    <img id="eyes"
+     src="eyes_closed.jpeg"
+     alt="Eyes Closed"
+     onclick="wakeUp()">
+
+    <a href="../index.html">Back to Landing Page</a>
+
+    <script>
+    let awake = false;
+
+    function wakeUp() {
+        let image = document.getElementById("eyes");
+
+        if (awake) {
+            image.src = "eyes_closed.jpeg";
+            image.alt = "Eyes Closed";
+            awake = false;
+        } else {
+            image.src = "eyes_open.jpeg";
+            image.alt = "Eyes Open";
+            awake = true;
+        }
+    }
+</script>
+
+</body>
+
+</html>
